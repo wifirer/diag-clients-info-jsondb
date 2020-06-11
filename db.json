@@ -1,0 +1,58 @@
+{
+    "data": {
+        "subscriptionInfo": [
+            {
+                "name": "Адрес клиента",
+                "value": "Белгородская обл., г. Белгород, ул. Садовая, д. 118в, п. 5, кв. 12"
+            },
+            {
+                "name": "Адрес КЕ",
+                "value": "Белгородская обл., г. Белгород, ул. Садовая, д. 118в"
+            },
+            {
+                "name": "Номер порта",
+                "value": "24",
+                "editable": true,
+                "type": "number",
+                "validationPattern": "^([1-9]|1[0-9]|2[0-4])$",
+                "validationMessage": "Введите 1 до 24",
+                "action": "SET_SUBSCRIPTION_PORT"
+            },
+            {
+                "name": "Тип подключения",
+                "value": "Juniper"
+            },
+            {
+                "name": "MAC-адрес клиента",
+                "value": "fb:1d:bf:23:7d:d4",
+                "editable": true,
+                "type": "text",
+                "validationPattern": "^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$",
+                "validationMessage": "Введите валидный mac",
+                "action": "SET_SUBSCRIPTION_MAC"
+            }
+        ],
+        "switchInfo": [
+            {
+                "name": "Наименование",
+                "value": "DGS-1100-06/ME"
+            },
+            {
+                "name": "N-R-S",
+                "value": "Zhilgorodok_ul-19"
+            },
+            {
+                "name": "IP коммутатора",
+                "value": "10.105.76.115"
+            },
+            {
+                "name": "ID коммутатора",
+                "value": "55041"
+            },
+            {
+                "name": "MAC КЕ",
+                "value": "fb:1d:bf:23:7d:d5"
+            }
+        ]
+    }
+}
